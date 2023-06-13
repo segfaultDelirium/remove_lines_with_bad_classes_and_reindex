@@ -13,8 +13,11 @@ first run:
 then copy label files into input/labels/train2017 or input/labels/val2017
 
 to run the program:
+
 iex -S mix
+
 and then in iex shell:
+
 ReindexLabels.main
 
 You will find result in the output directory
