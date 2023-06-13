@@ -1,21 +1,4 @@
-# ReindexLabels
-
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `reindex_labels` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:reindex_labels, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/reindex_labels>.
-
+This program was created to process COCO dataset for purpose of using it with YOLOv5 model.
+We have selected 19 classes that we want the dataset to contain and discard other classes.
+This program will read the label files, remove lines which class is not one of the 19 classes and then
+reindex the classes so that class indexes are from 0 to 19.
