@@ -14,3 +14,5 @@ to run the program:
 iex -S mix
 and then in iex shell:
 ReindexLabels.main
+
+You will find result in the output directory
